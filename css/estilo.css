@@ -1,0 +1,76 @@
+:root{
+    --primeira:#92374d;
+    --segunda:#7a6263;
+    --terceira:#ffffff;
+}
+
+body{
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 1.2em;
+    line-height: 1em;
+}
+.container{
+    max-width: 1100px;
+    margin:0 auto;
+    padding:0 40px;
+}
+
+.social{display:flex;justify-content:center;width:100%;background-color:var(--primeira);border-bottom:0.4em solid var(--segunda)}
+
+.social li{display:inline;}
+
+.social i{color:var(--terceira);padding:0.5em 1em;}
+
+.logo{float:left;margin-top:1em}
+
+nav{float:right;margin-top:2.5em}
+
+nav li{display:inline;margin:0 1.3em}
+
+nav a{color:var(--primeira)}
+
+nav a:hover{border-bottom:0.2em solid var(--segunda)}
+
+.banner{width:100%;}
+
+.banner img{width:100%;padding-top:3em}
+
+.servico{float:left;margin:0 auto;width:100%;}
+
+.card{float:left;width: 32%;margin:3em 0.3em;}
+
+.card img{border-radius:5%;width:75%;height:75%;margin:0 2.2em}
+
+.card h1{font-size: 1.5em;color:var(--primeira);margin:1em;text-align: center;}
+
+.card p{font-size:1em; text-align: justify;width:90%;line-height: 1.3em;color:var(--segunda)}
+
+.card button{width:45%;height:45px;margin:.8em 0;background-color: var(--primeira);color:var(--terceira);border:none;border-radius:0.6em;font-size: 1em;text-transform: uppercase;}
+
+.card button:hover{transform: scale(0.9);}
+
+hr{width:80%;border:1px solid var(--segunda)}
+
+.opiniao{float:left;margin-top:2em}
+
+.opiniao h2{text-align: center;margin-bottom:2em; font-size: 1.5em;color:var(--primeira)}
+
+.opiniao p{font-size:1em; text-align: center;line-height: 1.5em;color:var(--segunda);margin-bottom: 2em;}
+
+footer{float:left;width:100%;background-color: var(--primeira);}
+
+.rodape{float:left;width:33%;padding:2em 0.1em;text-align: center;}
+
+.rodape h3{color:var(--terceira);margin-bottom: 1em;font-size: 1.2em;}
+
+.rodape a{text-decoration: none; color:var(--terceira)}
+
+.rodape address{color:var(--terceira);padding-top:1em;font-size: 0.8em;}
+
+.rodape li{margin-bottom:0.5em}
+
+.rodape i{color:var(--segunda);margin-bottom:1em}
+
+.desen{float:left;width:100%;background-color: var(--segunda)}
+
+.desen p{font-size:0.8em; color:var(--terceira); text-align: center;padding:1em}
